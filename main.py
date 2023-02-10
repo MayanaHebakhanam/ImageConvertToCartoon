@@ -1,9 +1,9 @@
 # importing libraries
-#Cpturing video using OpenCV,designed to solve computer vision problems, NL and Image processing app's
+#Capturing video using OpenCV,designed to solve computer vision problems, NL and Image processing app's
 import cv2
 
 #Loads an image frm specified file
-img=cv2.imread("C:/Users/mayanaheba/Pictures/Saved Pictures/Image.jpg")
+img=cv2.imread("Image Path")
 
 #to convert an image from one color space to another
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
